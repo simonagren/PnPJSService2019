@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.10.0",
+    "libraryName": "anders",
+    "libraryId": "14700e7d-4e9e-4570-8343-8638723ec990",
+    "environment": "onprem19",
+    "packageManager": "npm",
+    "isCreatingSolution": true,
+    "componentType": "webpart"
+  }
+}
