@@ -1,6 +1,6 @@
 import { PageContext } from "@microsoft/sp-page-context";
 import { ServiceKey, ServiceScope } from "@microsoft/sp-core-library";
-import { ISPService } from "./ISPService";
+import { ISPService } from ".";
 import { sp } from "@pnp/sp";
 import { IStuff } from "../models";
 

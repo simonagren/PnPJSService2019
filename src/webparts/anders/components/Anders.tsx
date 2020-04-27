@@ -4,8 +4,7 @@ import { IAndersProps } from './IAndersProps';
 import { escape } from '@microsoft/sp-lodash-subset';
 import { ISPService } from '../../../common/services/ISPService';
 import { ServiceScope, Environment, EnvironmentType } from '@microsoft/sp-core-library';
-import { SPService } from '../../../common/services/SPService';
-import { MockSPService } from '../../../common/services/MockSPService';
+import { MockSPService, SPService } from '../../../common/services';
 
 export default class Anders extends React.Component < IAndersProps, {} > {
   private _service: ISPService;
